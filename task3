@@ -21,7 +21,8 @@
       }
     } 
   }
-  
+       </script>
+
   console.log(byTagName(document.body, "h2").length); 
   console.log(byTagName(document.body, "span").length); 
   var para = document.querySelector("p");
