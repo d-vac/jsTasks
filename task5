@@ -11,10 +11,10 @@ function printFrame(arr) {
             return Math.max(a, b);
           });
 
-        let line = fill("", size + 4, "*");
+        let line = fill("", size + 4, "/");
 
         arr = arr.map((element) => {
-          return "* " + fill(element, size, " ") + " *";
+          return "/ " + fill(element, size, " ") + " /";
         });
         arr.unshift(line);
         arr.push(line);
